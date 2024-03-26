@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "ConverterForDLsite",
+    "version": "1.2.8",
+    "description": "This extension converts converted words into banned words.",
+    "content_scripts": [{
+      "matches": ["https://www.dlsite.com/*"],
+      "all_frames": true,
+      "js": ["content-script.js"]
+    }]
+  }
